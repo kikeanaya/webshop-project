@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/webshop-project/static/css/main.e01a8c33.chunk.css",
-    "main.js": "/webshop-project/static/js/main.3156b727.chunk.js",
-    "main.js.map": "/webshop-project/static/js/main.3156b727.chunk.js.map",
+    "main.css": "/webshop-project/static/css/main.bf6cc283.chunk.css",
+    "main.js": "/webshop-project/static/js/main.db1253d8.chunk.js",
+    "main.js.map": "/webshop-project/static/js/main.db1253d8.chunk.js.map",
     "runtime~main.js": "/webshop-project/static/js/runtime~main.1503730f.js",
     "runtime~main.js.map": "/webshop-project/static/js/runtime~main.1503730f.js.map",
-    "static/js/2.4bb02a3a.chunk.js": "/webshop-project/static/js/2.4bb02a3a.chunk.js",
-    "static/js/2.4bb02a3a.chunk.js.map": "/webshop-project/static/js/2.4bb02a3a.chunk.js.map",
+    "static/js/2.5a1b467c.chunk.js": "/webshop-project/static/js/2.5a1b467c.chunk.js",
+    "static/js/2.5a1b467c.chunk.js.map": "/webshop-project/static/js/2.5a1b467c.chunk.js.map",
     "index.html": "/webshop-project/index.html",
-    "precache-manifest.eb63c86138cad5fa6416e84f2c738ef9.js": "/webshop-project/precache-manifest.eb63c86138cad5fa6416e84f2c738ef9.js",
+    "precache-manifest.184a74e3f58d32e79105096e38eb761b.js": "/webshop-project/precache-manifest.184a74e3f58d32e79105096e38eb761b.js",
     "service-worker.js": "/webshop-project/service-worker.js",
-    "static/css/main.e01a8c33.chunk.css.map": "/webshop-project/static/css/main.e01a8c33.chunk.css.map",
+    "static/css/main.bf6cc283.chunk.css.map": "/webshop-project/static/css/main.bf6cc283.chunk.css.map",
     "static/media/99-Cent-Tea.png": "/webshop-project/static/media/99-Cent-Tea.31f7ff0c.png",
     "static/media/A-City-Of-Stirring-Episodes.png": "/webshop-project/static/media/A-City-Of-Stirring-Episodes.35ccc010.png",
     "static/media/A-New-Chapter.png": "/webshop-project/static/media/A-New-Chapter.56a21f85.png",
@@ -87,6 +87,8 @@
     "static/media/Welcome-To-Your-Life.png": "/webshop-project/static/media/Welcome-To-Your-Life.3d74c3fc.png",
     "static/media/White-Oak-Jai-Alai.png": "/webshop-project/static/media/White-Oak-Jai-Alai.dafc169f.png",
     "static/media/Wildly-Yawning-Inverted-Doggo.png": "/webshop-project/static/media/Wildly-Yawning-Inverted-Doggo.8e0ed5c9.png",
-    "static/media/index.css": "/webshop-project/static/media/search2.a4ab05a0.svg"
+    "static/media/index.css": "/webshop-project/static/media/search2.a4ab05a0.svg",
+    "static/media/github.svg": "/webshop-project/static/media/github.70344bfc.svg",
+    "static/media/linkedin.svg": "/webshop-project/static/media/linkedin.1cc78585.svg"
   }
 }
