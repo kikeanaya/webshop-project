@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.app{
+  background-image:
+    linear-gradient(
+      to bottom right, 
+      #c350a2, #305fa5 
+    );
+  }
+
+.beer-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.beer-card{
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+}
+
+.beer-card img{
+  height: 25vh;
+}
+
+.beer-card button{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url("./Images/plus.svg") no-repeat center;
+  background-size: cover;
+  border: 0;
+  transition: 0.2s;
+}
+
+.beer-card button:hover{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.beer-card button:active{
+  transform: scale(0.80);
+}
+
+.beer-card button:focus{
+  outline: none;
+}
+
+.search-bar{
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+input {
+	outline: none;
+}
+input[type=search] {
+	appearance: textfield;
+	box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input[type=search] {
+	appearance: textfield;
+	box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input[type=search] {
+  background: url("./Images/search2.svg") no-repeat left;
+  background-size: contain;
+  border: 0;
+	padding: 9px 10px 9px 50px;
+	width: 70px;
+  transition: all .5s;
+  color: white;
+}
+
+input[type=search]:focus {
+  background: url("./Images/search2.svg") no-repeat -60px center;
+  background-size: contain;
+  padding: 9px 10px 9px 10px;
+  width: 130px;
+  border-bottom: 1px white solid;
+}
+
+.cart-icon{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 30px;
+  width: 60px;
+  padding: 10px;
+  border: 0;
+  background: url("./Images/cart.svg") no-repeat center;
+  background-size: 40%;
+  background-color: #1a1a1a;
+  color: #3c3b3b;
+  text-align: right;
+  z-index: 100;
+  transition: 0.3s;
+}
+
+.cart-icon:hover{
+  cursor: pointer;
+  background-color: #3c3b3b;
+}
+
+.cart-quantity{
+  border-radius: 50%;
+  background-color: #1dff13;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.entire-cart{
+  height: 90vh;
+  background-color: black;
+  overflow: scroll;
+  color: white;
+  position: fixed;
+  padding: 5vh;
+  left: 0;
+  top: 0;
+  z-index: 200;
+}
+
+.cart-beer{
+  height: 25%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-beer img{
+  height: 15vh;
+}
+
+.checkout-button{
+  padding: 10px;
+  border: 0;
+  background-color: #1dff13;
+  color: #3c3b3b;
+}

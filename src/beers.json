@@ -1,0 +1,686 @@
+[
+    {
+        "id": 0,
+        "name": "Double Mmm…Fruit Dream",
+        "brewery": "Other Half",
+        "image": "Double-Mmm.png",
+        "style": "Berliner Weisse",
+        "abv": 7,
+        "country": "USA"
+    },
+    {
+        "id": 1,
+        "name": "Enhance Your Mind",
+        "brewery": "Other Half",
+        "image": "Enhance-Your-Mind.png",
+        "style": "Imperial IPA",
+        "abv": 10,
+        "country": "USA"
+    },
+    {
+        "id": 2,
+        "name": "DDH Small Simcoe Everything",
+        "brewery": "Other Half",
+        "image": "DDH-Small-Simcoe-Everything.png",
+        "style": "IPA",
+        "abv": 6.5,
+        "country": "USA"
+    },
+    {
+        "id": 3,
+        "name": "All Medusa Everything",
+        "brewery": "Other Half",
+        "image": "All-Medusa-Everything.png",
+        "style": "Imperial IPA",
+        "abv": 8.5,
+        "country": "USA"
+    },
+    {
+        "id": 4,
+        "name": "99¢ Tea",
+        "brewery": "Other Half",
+        "image": "99-Cent-Tea.png",
+        "style": "IPA",
+        "abv": 7.5,
+        "country": "USA"
+    },
+    {
+        "id": 5,
+        "name": "Do You Want More?!!?",
+        "brewery": "Other Half",
+        "image": "Do-You-Want-More.png",
+        "style": "Sour IPA",
+        "abv": 8,
+        "country": "USA"
+    },
+    {
+        "id": 6,
+        "name": "Double Cashmere Daydream",
+        "brewery": "Other Half",
+        "image": "Double-Cashmere-Daydream.png",
+        "style": "Imperial IPA",
+        "abv": 8.5,
+        "country": "USA"
+    },
+    {
+        "id": 7,
+        "name": "DDH Small Nelson Everything",
+        "brewery": "Other Half",
+        "image": "DDH-Small-Nelson-Everything.png",
+        "style": "IPA",
+        "abv": 6.5,
+        "country": "USA"
+    },
+    {
+        "id": 8,
+        "name": "Double Cream Get The Honey",
+        "brewery": "Other Half",
+        "image": "Double-Cream-Get-The-Honey.png",
+        "style": "Imperial IPA",
+        "abv": 8.4,
+        "country": "USA"
+    },
+    {
+        "id": 9,
+        "name": "Citra + Triump",
+        "brewery": "Other Half",
+        "image": "Citra-Triumph.png",
+        "style": "Imperial IPA",
+        "abv": 8.5,
+        "country": "USA"
+    },
+    {
+        "id": 10,
+        "name": "Chopped Cheese",
+        "brewery": "Other Half",
+        "image": "Chopped-Cheese.png",
+        "style": "IPA",
+        "abv": 7.5,
+        "country": "USA"
+    },
+    {
+        "id": 11,
+        "name": "Slice the Pies",
+        "brewery": "Other Half",
+        "image": "Slice-The-Pies.png",
+        "style": "Sour IPA",
+        "abv": 8,
+        "country": "USA"
+    },
+    {
+        "id": 12,
+        "name": "Raspberry Crunchee",
+        "brewery": "Other Half",
+        "image": "Raspberry-Crunchee.png",
+        "style": "Berliner Weisse",
+        "abv": 7.4,
+        "country": "USA"
+    },
+    {
+        "id": 13,
+        "name": "Breakfast of Champers",
+        "brewery": "Other Half",
+        "image": "Breakfast-of-Champers.png",
+        "style": "Berliner Weisse",
+        "abv": 8,
+        "country": "USA"
+    },
+    {
+        "id": 14,
+        "name": "Countless Beautiful Arrangements",
+        "brewery": "Other Half",
+        "image": "Countless-Beautiful-Arrangements.png",
+        "style": "Imperial IPA",
+        "abv": 8.8,
+        "country": "USA"
+    },
+    {
+        "id": 15,
+        "name": "Prom Night",
+        "brewery": "Other Half",
+        "image": "Prom-Night.png",
+        "style": "Imperial IPA",
+        "abv": 8.4,
+        "country": "USA"
+    },
+    {
+        "id": 16,
+        "name": "Crickets",
+        "brewery": "Other Half",
+        "image": "Crickets.png",
+        "style": "Pilsner",
+        "abv": 5.1,
+        "country": "USA"
+    },
+    {
+        "id": 17,
+        "name": "Citra + Strata",
+        "brewery": "Other Half",
+        "image": "Citra-Strata.png",
+        "style": "Imperial IPA",
+        "abv": 8.5,
+        "country": "USA"
+    },
+    {
+        "id": 18,
+        "name": "Mosaic + Loral",
+        "brewery": "Other Half",
+        "image": "Mosaic-Loral.png",
+        "style": "Imperial IPA",
+        "abv": 8.5,
+        "country": "USA"
+    },
+    {
+        "id": 19,
+        "name": "DDH Double Mosaic Dream Experimental",
+        "brewery": "Other Half",
+        "image": "DDH-Double-Mosaic-Dream-Experimental.png",
+        "style": "Imperial IPA",
+        "abv": 8.5,
+        "country": "USA"
+    },
+    {
+        "id": 20,
+        "name": "Chicken & Broccoli",
+        "brewery": "Other Half",
+        "image": "Chicken-Broccoli.png",
+        "style": "IPA",
+        "abv": 7.5,
+        "country": "USA"
+    },
+    {
+        "id": 21,
+        "name": "Ramos Gin Fizz",
+        "brewery": "Other Half",
+        "image": "Ramos-Gin-Fizz.png",
+        "style": "Berliner Weisse",
+        "abv": 6.8,
+        "country": "USA"
+    },
+    {
+        "id": 22,
+        "name": "Genny Dream Ale",
+        "brewery": "Other Half",
+        "image": "Genny-Dream-Ale.png",
+        "style": "IPA",
+        "abv": 4.6,
+        "country": "USA"
+    },
+    {
+        "id": 23,
+        "name": "Short Dark & Handsome",
+        "brewery": "Other Half",
+        "image": "Short-Dark-Handsome.png",
+        "style": "Stout",
+        "abv": 7.2,
+        "country": "USA"
+    },
+    {
+        "id": 24,
+        "name": "Aiight Chill",
+        "brewery": "Other Half",
+        "image": "Aiight-Chill.png",
+        "style": "Sour IPA",
+        "abv": 8,
+        "country": "USA"
+    },
+    {
+        "id": 25,
+        "name": "Stay Wild, Moon Child",
+        "brewery": "Other Half",
+        "image": "Stay-Wild-Moon-Child.png",
+        "style": "Imperial Stout",
+        "abv": 10,
+        "country": "USA"
+    },
+    {
+        "id": 26,
+        "name": "DDH All Citra Everything Experimental",
+        "brewery": "Other Half",
+        "image": "All-Citra-Everything-DDH-Experimental.png",
+        "style": "Imperial IPA",
+        "abv": 8.5,
+        "country": "USA"
+    },
+    {
+        "id": 27,
+        "name": "The La La",
+        "brewery": "Other Half",
+        "image": "The-La-La.png",
+        "style": "Imperial IPA",
+        "abv": 8,
+        "country": "USA"
+    },
+    {
+        "id": 28,
+        "name": "DDH Go With The Flow",
+        "brewery": "Other Half",
+        "image": "DDH-Go-With-The-Flow.png",
+        "style": "IPA",
+        "abv": 6.5,
+        "country": "USA"
+    },
+    {
+        "id": 29,
+        "name": "DDH Bagel & Schmear",
+        "brewery": "Other Half",
+        "image": "DDH-Bagel-Schmear.png",
+        "style": "IPA",
+        "abv": 7.5,
+        "country": "USA"
+    },
+    {
+        "id": 30,
+        "name": "Nelson Daydream",
+        "brewery": "Other Half",
+        "image": "Nelson-Daydream.png",
+        "style": "IPA",
+        "abv": 6.5,
+        "country": "USA"
+    },
+    {
+        "id": 31,
+        "name": "Cryosleep",
+        "brewery": "Other Half",
+        "image": "Cryosleep.png",
+        "style": "Imperial IPA",
+        "abv": 8.8,
+        "country": "USA"
+    },
+    {
+        "id": 32,
+        "name": "Poolside",
+        "brewery": "Other Half",
+        "image": "Poolside.png",
+        "style": "Berliner Weisse",
+        "abv": 7,
+        "country": "USA"
+    },
+    {
+        "id": 33,
+        "name": "DDH Vapor Ringz",
+        "brewery": "Other Half",
+        "image": "DDH-Vapor-Ringz.png",
+        "style": "Imperial IPA",
+        "abv": 8.4,
+        "country": "USA"
+    },
+    {
+        "id": 34,
+        "name": "Gold Bangles",
+        "brewery": "Other Half",
+        "image": "Gold-Bangles.png",
+        "style": "IPA",
+        "abv": 5.4,
+        "country": "USA"
+    },
+    {
+        "id": 35,
+        "name": "DDH Hop Showers",
+        "brewery": "Other Half",
+        "image": "DDH-Hop-Showers.png",
+        "style": "IPA",
+        "abv": 7.4,
+        "country": "USA"
+    },
+    {
+        "id": 36,
+        "name": "Jai Alai",
+        "brewery": "Cigar City",
+        "image": "Jai-Alai.png",
+        "style": "IPA",
+        "abv": 7.5,
+        "country": "USA"
+    },
+    {
+        "id": 37,
+        "name": "Guayabera",
+        "brewery": "Cigar City",
+        "image": "Guayabera.png",
+        "style": "Pale Ale",
+        "abv": 5.5,
+        "country": "USA"
+    },
+    {
+        "id": 38,
+        "name": "Invasion",
+        "brewery": "Cigar City",
+        "image": "Invasion.png",
+        "style": "Pale Ale",
+        "abv": 5,
+        "country": "USA"
+    },
+    {
+        "id": 39,
+        "name": "Florida Cracker",
+        "brewery": "Cigar City",
+        "image": "Florida-Cracker.png",
+        "style": "Witbier",
+        "abv": 5.5,
+        "country": "USA"
+    },
+    {
+        "id": 40,
+        "name": "Lager",
+        "brewery": "Cigar City",
+        "image": "Lager.png",
+        "style": "Lager",
+        "abv": 4.5,
+        "country": "USA"
+    },
+    {
+        "id": 41,
+        "name": "Tocobaga",
+        "brewery": "Cigar City",
+        "image": "Tocobaga.png",
+        "style": "IPA",
+        "abv": 7.2,
+        "country": "USA"
+    },
+    {
+        "id": 42,
+        "name": "Oatmeal Raisin Cookie",
+        "brewery": "Cigar City",
+        "image": "Oatmeal-Raisin-Cookie.png",
+        "style": "Brown Ale",
+        "abv": 5.5,
+        "country": "USA"
+    },
+    {
+        "id": 43,
+        "name": "White Oak Jai Alai",
+        "brewery": "Cigar City",
+        "image": "White-Oak-Jai-Alai.png",
+        "style": "IPA",
+        "abv": 7.5,
+        "country": "USA"
+    },
+    {
+        "id": 44,
+        "name": "After Sesh",
+        "brewery": "Cigar City",
+        "image": "After-Sesh.png",
+        "style": "Pale Ale",
+        "abv": 4.5,
+        "country": "USA"
+    },
+    {
+        "id": 45,
+        "name": "Humidor",
+        "brewery": "Cigar City",
+        "image": "Humidor.png",
+        "style": "IPA",
+        "abv": 7.5,
+        "country": "USA"
+    },
+    {
+        "id": 46,
+        "name": "Advocate Salvation",
+        "brewery": "Wylam",
+        "image": "Advocate-Salvation.png",
+        "style": "Pale Ale",
+        "abv": 5.2,
+        "country": "UK"
+    },
+    {
+        "id": 47,
+        "name": "All Formats",
+        "brewery": "Wylam",
+        "image": "All-Formats.png",
+        "style": "Pale Ale",
+        "abv": 5.2,
+        "country": "UK"
+    },
+    {
+        "id": 48,
+        "name": "Chasing Mirrors Through A Haze",
+        "brewery": "Wylam",
+        "image": "Chasing-Mirrors-Through-A-Haze.png",
+        "style": "IPA",
+        "abv": 7.1,
+        "country": "UK"
+    },
+    {
+        "id": 49,
+        "name": "Child In Time",
+        "brewery": "Wylam",
+        "image": "Child-In-Time.png",
+        "style": "IPA",
+        "abv": 7.4,
+        "country": "UK"
+    },
+    {
+        "id": 50,
+        "name": "Dank Marvin",
+        "brewery": "Wylam",
+        "image": "Dank-Marvin.png",
+        "style": "DIPA",
+        "abv": 8.6,
+        "country": "UK"
+    },
+    {
+        "id": 51,
+        "name": "Echoes of Vastness",
+        "brewery": "Wylam",
+        "image": "Echoes-Of-Vastness.png",
+        "style": "Pale Ale",
+        "abv": 4.8,
+        "country": "UK"
+    },
+    {
+        "id": 52,
+        "name": "Final Pulse",
+        "brewery": "Wylam",
+        "image": "Final-Pulse.png",
+        "style": "IPA",
+        "abv": 6.8,
+        "country": "UK"
+    },
+    {
+        "id": 53,
+        "name": "Freak Magnet",
+        "brewery": "Wylam",
+        "image": "Freak-Magnet.png",
+        "style": "DIPA",
+        "abv": 8.5,
+        "country": "UK"
+    },
+    {
+        "id": 54,
+        "name": "Just About Midnight",
+        "brewery": "Wylam",
+        "image": "Just-About-Midnight.png",
+        "style": "Porter",
+        "abv": 5.6,
+        "country": "UK"
+    },
+    {
+        "id": 55,
+        "name": "Kill Phil Pt. 1",
+        "brewery": "Wylam",
+        "image": "Kill-Phil-Pt-1.png",
+        "style": "IPA",
+        "abv": 7,
+        "country": "UK"
+    },
+    {
+        "id": 56,
+        "name": "Reality Asylum",
+        "brewery": "Wylam",
+        "image": "Just-About-Midnight.png",
+        "style": "IPA",
+        "abv": 7.4,
+        "country": "UK"
+    },
+    {
+        "id": 57,
+        "name": "Searching For The Joys Again",
+        "brewery": "Wylam",
+        "image": "Searching-For-The-Joys-Again.png",
+        "style": "Pale Ale",
+        "abv": 4.7,
+        "country": "UK"
+    },
+    {
+        "id": 58,
+        "name": "The Shape",
+        "brewery": "Wylam",
+        "image": "The-Shape.png",
+        "style": "IPA",
+        "abv": 6.7,
+        "country": "UK"
+    },
+    {
+        "id": 59,
+        "name": "Veer Towards Chaos",
+        "brewery": "Wylam",
+        "image": "Veer-Towards-Chaos.png",
+        "style": "IPA",
+        "abv": 7,
+        "country": "UK"
+    },
+    {
+        "id": 60,
+        "name": "Verdieping Nil",
+        "brewery": "Wylam",
+        "image": "Verdieping-Nil.png",
+        "style": "DIPA",
+        "abv": 8,
+        "country": "UK"
+    },
+    {
+        "id": 61,
+        "name": "A City Of Stirring Episodes",
+        "brewery": "Cloudwater",
+        "image": "A-City-Of-Stirring-Episodes.png",
+        "style": "Pale Ale",
+        "abv": 4.2,
+        "country": "UK"
+    },
+    {
+        "id": 62,
+        "name": "A New Chapter",
+        "brewery": "Cloudwater",
+        "image": "A-New-Chapter.png",
+        "style": "Lager",
+        "abv": 6.5,
+        "country": "UK"
+    },
+    {
+        "id": 63,
+        "name": "Barry From Finance",
+        "brewery": "Cloudwater",
+        "image": "Barry-From-Finance.png",
+        "style": "DIPA",
+        "abv": 8,
+        "country": "UK"
+    },
+    {
+        "id": 64,
+        "name": "Blue Mobile Speaker",
+        "brewery": "Cloudwater",
+        "image": "Blue-Mobile-Speaker.png",
+        "style": "DIPA",
+        "abv": 8,
+        "country": "UK"
+    },
+    {
+        "id": 65,
+        "name": "Cheerful Happenings And Intentions",
+        "brewery": "Cloudwater",
+        "image": "Cheerful-Happenings-And-Intentions.png",
+        "style": "Imperial Stout",
+        "abv": 10,
+        "country": "UK"
+    },
+    {
+        "id": 66,
+        "name": "Dance Like Everyone Is Watching",
+        "brewery": "Cloudwater",
+        "image": "Everyone-Is-Watching.png",
+        "style": "IPA",
+        "abv": 6.5,
+        "country": "UK"
+    },
+    {
+        "id": 67,
+        "name": "Helles",
+        "brewery": "Cloudwater",
+        "image": "Helles.png",
+        "style": "Lager",
+        "abv": 4.8,
+        "country": "UK"
+    },
+    {
+        "id": 68,
+        "name": "Hoppy Little Lager",
+        "brewery": "Cloudwater",
+        "image": "Hoppy-Little-Lager.png",
+        "style": "Lager",
+        "abv": 3.9,
+        "country": "UK"
+    },
+    {
+        "id": 69,
+        "name": "Indulgently Crisp Experience",
+        "brewery": "Cloudwater",
+        "image": "Indulgently-Crisp-Experience.png",
+        "style": "Lager",
+        "abv": 6.5,
+        "country": "UK"
+    },
+    {
+        "id": 70,
+        "name": "IPA",
+        "brewery": "Cloudwater",
+        "image": "IPA.png",
+        "style": "IPA",
+        "abv": 6.5,
+        "country": "UK"
+    },
+    {
+        "id": 71,
+        "name": "Likeable Orange Liquid",
+        "brewery": "Cloudwater",
+        "image": "Likeable-Orange-Liquid.png",
+        "style": "DIPA",
+        "abv": 8.5,
+        "country": "UK"
+    },
+    {
+        "id": 72,
+        "name": "Pale Ale",
+        "brewery": "Cloudwater",
+        "image": "Pale-Ale.png",
+        "style": "Pale Ale",
+        "abv": 4,
+        "country": "UK"
+    },
+    {
+        "id": 73,
+        "name": "Q4 Marketing Objectives",
+        "brewery": "Cloudwater",
+        "image": "Q4-Marketing-Objectives.png",
+        "style": "Witbier",
+        "abv": 6.5,
+        "country": "UK"
+    },
+    {
+        "id": 74,
+        "name": "Welcome To Your Life",
+        "brewery": "Cloudwater",
+        "image": "Welcome-To-Your-Life.png",
+        "style": "Sour",
+        "abv": 5.2,
+        "country": "UK"
+    },
+    {
+        "id": 75,
+        "name": "Wildly Yawning Inverted Doggo",
+        "brewery": "Cloudwater",
+        "image": "Wildly-Yawning-Inverted-Doggo.png",
+        "style": "Imperial IPA",
+        "abv": 10,
+        "country": "UK"
+    }
+]
