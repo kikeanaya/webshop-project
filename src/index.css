@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -111,8 +112,8 @@ input[type=search]:focus {
   position: fixed;
   right: 0;
   top: 0;
-  height: 30px;
-  width: 60px;
+  height: 40px;
+  width: 70px;
   padding: 10px;
   border: 0;
   background: url("./Images/cart.svg") no-repeat center;
@@ -142,13 +143,19 @@ input[type=search]:focus {
 .entire-cart{
   height: 90vh;
   background-color: black;
+  text-align: center;
   overflow: scroll;
   color: white;
   position: fixed;
   padding: 5vh;
-  left: 0;
+  right: -100%;
   top: 0;
   z-index: 200;
+  transition: 0.5s;
+}
+
+.entire-cart h2{
+  margin-top: 0;
 }
 
 .cart-beer{
@@ -157,6 +164,7 @@ input[type=search]:focus {
   border-radius: 5px;
   padding: 20px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .cart-beer img{
@@ -166,6 +174,42 @@ input[type=search]:focus {
 .checkout-button{
   padding: 10px;
   border: 0;
+  border-radius: 5px;
   background-color: #1dff13;
   color: #3c3b3b;
+  margin-top: 15px;
+}
+
+.cart-icon:focus + .entire-cart{
+  right: 0;
+}
+
+.footer{
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-half{
+  width: 50%;
+  padding: 40px;
+}
+
+.right-half{
+  width: 50%;
+  text-align: right;
+  padding: 40px;
+}
+
+.contact-logos{
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+
+.no-results{
+  color: white;
+  font-size: 5rem;
+  margin: 50px;
 }
