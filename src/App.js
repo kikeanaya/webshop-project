@@ -16,21 +16,25 @@ const App = ({ articles, searchTerm, cart, onSearch, addBeer }) =>
   </div>
 
 const Cart = ({ cart }) =>
-  <div>
-    <button className="cart-icon">
-      <span className="cart-quantity">{cart.length}</span>
-    </button>
-    <div className="entire-cart">
-      <h2>YOUR CART:</h2>
-      {
-        cart.map(beer=>
-          <BeerInCart beer={beer} key={beer.id}/>
-        )
-      }
-      <p>You have {cart.length} beers in your cart.</p>
-      <button className="checkout-button">CHECKOUT</button>
-    </div>
-  </div>
+      <div>
+       
+        
+          <button className= {(cart.length>0) ? "cart-icon" : "cart-icon-hidden"}>
+            <span className="cart-quantity">{cart.length}</span>
+          </button>
+    
+        <div className="entire-cart">
+          <h2>YOUR CART:</h2>
+          {
+            cart.map(beer=>
+              <BeerInCart beer={beer} key={beer.id}/>
+            )
+          }
+          <p>You have {cart.length} beers in your cart.</p>
+          <button className="checkout-button">CHECKOUT</button>
+        </div>
+        
+      </div>
 
 const BeerInCart = ({beer}) =>
     <div className="cart-beer">
@@ -62,7 +66,6 @@ const Articles = ({ articles , addBeer}) =>{
     </div> 
   }
 }
-  
 
 const Article = ({ article, addBeer }) =>
   <div className="beer-card">
@@ -91,8 +94,6 @@ const Footer = () =>
       <a href="https://github.com/kikeanaya" target="_blank" rel="noopener noreferrer"><img className="contact-logos" src={github} alt="github-logo" /></a>
     </div>
   </div>
-
-// connecting view layer to state layer with react-redux
 
 const mapStateToProps = state => ({
   articles: state.articlesState.articles,

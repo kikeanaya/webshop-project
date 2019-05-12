@@ -31,6 +31,8 @@ body {
   border: 1px solid white;
   border-radius: 5px;
   position: relative;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+
 }
 
 .beer-card img{
@@ -95,7 +97,8 @@ input[type=search] {
   background-size: contain;
   border: 0;
 	padding: 9px 10px 9px 50px;
-	width: 70px;
+  width: 70px;
+  height: 10px;
   transition: all .5s;
   color: white;
 }
@@ -115,19 +118,39 @@ input[type=search]:focus {
   height: 40px;
   width: 70px;
   padding: 10px;
-  border: 0;
-  background: url("./Images/cart.svg") no-repeat center;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: url("./Images/cart.svg") #7f57a3 no-repeat center;
   background-size: 40%;
-  background-color: #1a1a1a;
   color: #3c3b3b;
   text-align: right;
   z-index: 100;
   transition: 0.3s;
+  margin: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
 }
 
 .cart-icon:hover{
   cursor: pointer;
   background-color: #3c3b3b;
+}
+
+.cart-icon-hidden{
+  position: fixed;
+  right: 0;
+  top: -100px;
+  height: 40px;
+  width: 70px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: url("./Images/cart.svg") #7f57a3 no-repeat center;
+  background-size: 40%;
+  color: #3c3b3b;
+  text-align: right;
+  z-index: 100;
+  transition: 0.3s;
+  margin: 20px;
 }
 
 .cart-quantity{
