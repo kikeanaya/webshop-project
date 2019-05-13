@@ -32,7 +32,6 @@ body {
   border-radius: 5px;
   position: relative;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-
 }
 
 .beer-card img{
@@ -138,7 +137,7 @@ input[type=search]:focus {
 .cart-icon-hidden{
   position: fixed;
   right: 0;
-  top: -100px;
+  top: -300px;
   height: 40px;
   width: 70px;
   padding: 10px;
@@ -175,6 +174,11 @@ input[type=search]:focus {
   top: 0;
   z-index: 200;
   transition: 0.5s;
+  
+}
+
+.cart-open{
+  right: 0;
 }
 
 .entire-cart h2{
@@ -182,17 +186,38 @@ input[type=search]:focus {
 }
 
 .cart-beer{
-  height: 25%;
+  height: 30%;
   border: 1px solid white;
   border-radius: 5px;
   padding: 20px;
   text-align: center;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .cart-beer img{
   height: 15vh;
+  width: 15vh;
 }
+
+.cart-beer button{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url("./Images/minus.svg") no-repeat center;
+  background-size: cover;
+  border: 0;
+  transition: 0.2s;
+}
+
+.cart-beer button:hover{
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+
 
 .checkout-button{
   padding: 10px;
@@ -201,10 +226,6 @@ input[type=search]:focus {
   background-color: #1dff13;
   color: #3c3b3b;
   margin-top: 15px;
-}
-
-.cart-icon:focus + .entire-cart{
-  right: 0;
 }
 
 .footer{
@@ -235,4 +256,17 @@ input[type=search]:focus {
   color: white;
   font-size: 5rem;
   margin: 50px;
+}
+
+.close-icon{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: url("./Images/logout.svg") no-repeat center;
+  background-size: cover;
+  border: 0;
+  transition: 0.2s;
+  cursor: pointer;
 }
