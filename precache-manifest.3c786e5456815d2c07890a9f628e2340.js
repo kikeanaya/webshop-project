@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a6f114fb0b2ac035e4aa37eb88d4879",
+    "revision": "fc69580367ab89fb2c62043095dff96f",
     "url": "/webshop-project/index.html"
   },
   {
-    "revision": "890e7acc48d99aa87f40",
-    "url": "/webshop-project/static/css/main.13f1c072.chunk.css"
+    "revision": "d0f315995b0027fc201d",
+    "url": "/webshop-project/static/css/main.ac681ce9.chunk.css"
   },
   {
-    "revision": "c94394309c53333fcb7d",
-    "url": "/webshop-project/static/js/2.5a1b467c.chunk.js"
+    "revision": "628a19bc7099771f16d9",
+    "url": "/webshop-project/static/js/2.68aa501c.chunk.js"
   },
   {
-    "revision": "890e7acc48d99aa87f40",
-    "url": "/webshop-project/static/js/main.485fdd18.chunk.js"
+    "revision": "d0f315995b0027fc201d",
+    "url": "/webshop-project/static/js/main.849b8211.chunk.js"
   },
   {
     "revision": "f38025f9829a1cafccb9",
@@ -334,6 +334,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1cc78585a988a9538e4bf817be10606b",
     "url": "/webshop-project/static/media/linkedin.1cc78585.svg"
+  },
+  {
+    "revision": "16386f420a2e1a25304fd39a66990779",
+    "url": "/webshop-project/static/media/logout.16386f42.svg"
+  },
+  {
+    "revision": "136476006e87d58efa845e6481558190",
+    "url": "/webshop-project/static/media/minus.13647600.svg"
   },
   {
     "revision": "1911b04ba0f6b4789b0009566e35d115",
