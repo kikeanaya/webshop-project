@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/webshop-project/static/css/main.ac681ce9.chunk.css",
-    "main.js": "/webshop-project/static/js/main.849b8211.chunk.js",
-    "main.js.map": "/webshop-project/static/js/main.849b8211.chunk.js.map",
+    "main.css": "/webshop-project/static/css/main.e6387fdb.chunk.css",
+    "main.js": "/webshop-project/static/js/main.5b0d159d.chunk.js",
+    "main.js.map": "/webshop-project/static/js/main.5b0d159d.chunk.js.map",
     "runtime~main.js": "/webshop-project/static/js/runtime~main.1503730f.js",
     "runtime~main.js.map": "/webshop-project/static/js/runtime~main.1503730f.js.map",
     "static/js/2.68aa501c.chunk.js": "/webshop-project/static/js/2.68aa501c.chunk.js",
     "static/js/2.68aa501c.chunk.js.map": "/webshop-project/static/js/2.68aa501c.chunk.js.map",
     "index.html": "/webshop-project/index.html",
-    "precache-manifest.3c786e5456815d2c07890a9f628e2340.js": "/webshop-project/precache-manifest.3c786e5456815d2c07890a9f628e2340.js",
+    "precache-manifest.acc26572e728f8d185031530eae27daa.js": "/webshop-project/precache-manifest.acc26572e728f8d185031530eae27daa.js",
     "service-worker.js": "/webshop-project/service-worker.js",
-    "static/css/main.ac681ce9.chunk.css.map": "/webshop-project/static/css/main.ac681ce9.chunk.css.map",
+    "static/css/main.e6387fdb.chunk.css.map": "/webshop-project/static/css/main.e6387fdb.chunk.css.map",
     "static/media/99-Cent-Tea.png": "/webshop-project/static/media/99-Cent-Tea.31f7ff0c.png",
     "static/media/A-City-Of-Stirring-Episodes.png": "/webshop-project/static/media/A-City-Of-Stirring-Episodes.35ccc010.png",
     "static/media/A-New-Chapter.png": "/webshop-project/static/media/A-New-Chapter.56a21f85.png",
@@ -87,7 +87,7 @@
     "static/media/Welcome-To-Your-Life.png": "/webshop-project/static/media/Welcome-To-Your-Life.3d74c3fc.png",
     "static/media/White-Oak-Jai-Alai.png": "/webshop-project/static/media/White-Oak-Jai-Alai.dafc169f.png",
     "static/media/Wildly-Yawning-Inverted-Doggo.png": "/webshop-project/static/media/Wildly-Yawning-Inverted-Doggo.8e0ed5c9.png",
-    "static/media/index.css": "/webshop-project/static/media/search2.a4ab05a0.svg",
+    "static/media/index.scss": "/webshop-project/static/media/search2.a4ab05a0.svg",
     "static/media/github.svg": "/webshop-project/static/media/github.70344bfc.svg",
     "static/media/linkedin.svg": "/webshop-project/static/media/linkedin.1cc78585.svg"
   }
