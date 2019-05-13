@@ -22,7 +22,7 @@ body {
   }
   
   .beer-card{
-    width: 200px;
+    width: 270px;
     margin: 20px;
     text-align: center;
     padding: 20px;
@@ -32,9 +32,17 @@ body {
     border-radius: 5px;
     position: relative;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+
+        &:hover{
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        p{
+            line-height: 10px;
+        }
   
         img{
-            height: 25vh;
+            height: 40vh;
         }
     
         button{
@@ -63,12 +71,16 @@ body {
             outline: none;
         }
     }
+    
+    .beer-name{
+        font-size: 20px;
+    }
   
-  .search-bar{
-    text-align: left;
-    padding-top: 20px;
-    padding-left: 40px;
-  }
+    .search-bar{
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
   
   input {
       outline: none;
@@ -174,7 +186,6 @@ body {
     top: 0;
     z-index: 200;
     transition: 0.5s;
-    
   }
   
   .cart-open{
@@ -186,17 +197,20 @@ body {
   }
   
   .cart-beer{
-    height: 30%;
+    height: 10%;
     border: 1px solid white;
     border-radius: 5px;
     padding: 20px;
-    text-align: center;
     margin-bottom: 20px;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+
   
         img{
-            height: 15vh;
-            width: 15vh;
+            height: 50px;
+            width: 50px;
         }
 
         button{
@@ -261,8 +275,8 @@ body {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
     background: url("./Images/logout.svg") no-repeat center;
     background-size: cover;
     border: 0;

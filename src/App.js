@@ -38,8 +38,8 @@ const Cart = ({ cart, removeBeer, openCart, cartOpen, closeCart }) =>
 
 const BeerInCart = ({beer, removeBeer}) =>
     <div className="cart-beer">
-      <p>{beer.name}</p>
       <img src={require(`./Images/beer-images/${beer.image}`)} alt={beer.name}/>
+      <p>{beer.name}</p>
       <button onClick={() => removeBeer(beer)}></button>
     </div>
 
@@ -73,7 +73,7 @@ const Article = ({ article, addBeer }) =>
     <div className="image-container">
       <img src={require(`./Images/beer-images/${article.image}`)} alt={article.name}/>
     </div>
-    <p>{article.name}</p>
+    <h3 className="beer-name">{article.name}</h3>
     <p>{article.brewery}</p>
     <p>ABV: {article.abv}%</p>
     <p>{article.style}</p>
