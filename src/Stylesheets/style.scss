@@ -44,6 +44,7 @@ body {
   
         img{
             height: 40vh;
+            max-height: 270px;
         }
     
         button{
@@ -86,6 +87,7 @@ body {
   input {
       outline: none;
   }
+  
   input[type=search] {
       appearance: textfield;
       box-sizing: content-box;
